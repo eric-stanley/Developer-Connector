@@ -1,5 +1,4 @@
 const validator = require('validator');
-const keys = require('../config/keys');
 const isEmpty = require('./is-empty');
 
 module.exports = function validateLoginInput(data) {
