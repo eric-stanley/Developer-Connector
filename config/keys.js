@@ -15,5 +15,9 @@ module.exports = {
   registerPagePasswordMinChar: Number(process.env.REGISTER_PAGE_PASSWORD_MIN_CHAR),
   registerPagePasswordMaxChar: Number(process.env.REGISTER_PAGE_PASSWORD_MAX_CHAR),
   profileHandleMinChar: Number(process.env.PROFILE_HANDLE_MIN_CHAR),
-  profileHandleMaxChar: Number(process.env.PROFILE_HANDLE_MAX_CHAR)
+  profileHandleMaxChar: Number(process.env.PROFILE_HANDLE_MAX_CHAR),
+  postMinLength: Number(process.env.POST_MIN_LENGTH),
+  postMaxLength: Number(process.env.POST_MAX_LENGTH),
+  commentMinLength: Number(process.env.COMMENT_MIN_LENGTH),
+  commentMaxLength: Number(process.env.COMMENT_MAX_LENGTH)
 }
