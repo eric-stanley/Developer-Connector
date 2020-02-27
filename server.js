@@ -29,7 +29,7 @@ mongoose
 dotenv.config();
 const port = process.env.PORT || 3000;
 
-// passport middleware
+// passport middlewarq
 app.use(passport.initialize());
 
 // passport config
