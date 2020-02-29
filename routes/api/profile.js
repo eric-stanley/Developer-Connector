@@ -139,7 +139,7 @@ router.post('/', passport.authenticate('jwt', { session: false }), (req, res) =>
         .then(profile => {
           if (profile) {
             errors.handle = 'That handle already exists';
-            res.status(404).json(errors);
+            return res.status(404).json(errors);
           }
           // save profile
           new Profile(profileFields).save()
